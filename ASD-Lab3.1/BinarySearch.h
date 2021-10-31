@@ -9,5 +9,5 @@ public:
 	virtual int Execute() override;
 
 private:
-	int binary_search(int first_index, int last_index);
+	int binarySearch(int first_index, int last_index);
 };

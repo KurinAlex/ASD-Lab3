@@ -5,16 +5,15 @@
 class Search
 {
 public:
-	Search();
+	Search(int* array, int size, int target);
 
-	void ExecuteAndCalculateTime(int iterations_number);
+	const char* GetSearchName();
+	float ExecuteAndCalculateTime(int iterations_number);
 	virtual int Execute() = 0;
-
-public:
-	const char* search_name;
 
 protected:
 	int* m_array;
 	int m_size;
 	int m_target;
+	const char* m_search_name;
 };
