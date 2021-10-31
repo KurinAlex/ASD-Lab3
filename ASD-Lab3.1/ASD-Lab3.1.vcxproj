@@ -140,10 +140,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ASD-Lab3.1.cpp" />
+    <ClCompile Include="BinarySearch.cpp" />
     <ClCompile Include="helpers.cpp" />
+    <ClCompile Include="LinearSearch.cpp" />
+    <ClCompile Include="Search.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="BinarySearch.h" />
     <ClInclude Include="helpers.h" />
+    <ClInclude Include="LinearSearch.h" />
+    <ClInclude Include="Search.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
