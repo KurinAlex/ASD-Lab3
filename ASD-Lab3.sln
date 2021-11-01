@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASD-Lab3.1", "ASD-Lab3.1\ASD-Lab3.1.vcxproj", "{F19E23D7-891F-4ECD-AC88-BD1591113231}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ASD-Lab3.2", "ASD-Lab3.2\ASD-Lab3.2.vcxproj", "{831D31C7-D7FB-4853-AF93-EB3A5006C035}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
